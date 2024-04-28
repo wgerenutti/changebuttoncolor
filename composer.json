@@ -1,5 +1,5 @@
 {
-    "name": "wgerenutti/change-color-button",
+    "name": "wgerenutti/changecolorbutton",
     "description": "Magento 2 module to change button color via console command",
     "type": "magento2-module",
     "version": "1.0.0",
