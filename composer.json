@@ -1,0 +1,30 @@
+{
+    "name": "wgerenutti/change-color-button",
+    "description": "Magento 2 module to change button color via console command",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "authors": [
+        {
+            "name": "William Gerenutti",
+            "email": "Williamgerenuttidm@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7",
+        "magento/framework": "*",
+        "magento/module-store": "*",
+        "magento/module-cms": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Wgerenutti\\ChangeColorButton\\": ""
+        }
+    }
+}
